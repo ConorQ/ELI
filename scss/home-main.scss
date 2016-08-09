@@ -1,0 +1,117 @@
+body {
+	height: 100000px;
+}
+
+//Video//
+
+#video {
+	h1 {
+		display: none;
+		color: white;
+		font-family: 'Arial', sans-serif;
+		font-size: 36px;
+		z-index: 2;
+		position: relative;
+		top: 400px;
+		text-align: center;
+	}
+
+
+	video {
+		width: 102%;
+		margin: -8px -8px 0 -8px;
+	}	
+}	
+
+// Company Section //
+
+#company {
+	background-color: gray;
+	margin: -25px -8px 0 -8px;
+
+	h1 {
+		text-align: center;
+	    padding-top: 15px;
+	}
+
+	div {
+		padding: 20px 30px;
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		img {
+			cursor: pointer;
+		}
+	}
+}
+
+
+
+// Parallax Section //
+
+
+#parallax {
+	.welcome-bg, .intro-bg, .sign-up-bg{
+		position:fixed;
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+	}
+
+
+
+	.welcome, .intro, .sign-up {
+		position:fixed;
+		top:0;
+		right: 0;
+		margin-left: 50%;
+	}
+
+	p {
+		height: 50%;
+		margin-top: -10px;
+		padding: 2% 3%;
+		background-color: navy;
+		color: white;
+	}
+
+	.h1 {
+		height: 50%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-color: white;
+	}
+
+	.welcome {
+		z-index: -1;
+	}
+
+	.intro {
+		z-index: -3;
+	}
+
+	.sign-up {
+		z-index: -5;
+	}
+
+	.welcome-bg{
+		background: blue url('http://wallpicshd.com/wp-content/uploads/2013/06/Landscape-04-HD-Wallpaper.jpg') center center fixed;
+		background-size:cover;
+		z-index:-2;
+	}
+	.intro-bg{
+		background: green url('http://www.hdwallpapers.in/walls/sunflower_landscape-wide.jpg') center center fixed;
+		z-index:-4;
+	}
+	.sign-up-bg{
+		background: red url('https://static.pexels.com/photos/1029/landscape-mountains-nature-clouds.jpg') center center fixed;
+		z-index:-6;
+	}
+}
+
+
+
+
+
